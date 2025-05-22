@@ -1,7 +1,6 @@
 import {test, expect} from '@playwright/test';
-import { time } from 'console';
 
-test.describe('login tests',  () => {
+test.describe('login tests @ft',  () => {
 
 test('valid login',{
     tag : ['@ui', '@smoke'],

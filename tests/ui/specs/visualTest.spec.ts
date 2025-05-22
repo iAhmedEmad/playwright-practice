@@ -6,7 +6,7 @@ test('visual compersion', async({page}) => {
     await expect(page).toHaveScreenshot({maxDiffPixels : 0});
 })
 
-test.only('visual compersion for dynamic elements', async({page}) => {
+test('visual compersion for dynamic elements', async({page}) => {
 
     await page.goto('https://qa-practice.netlify.app/visual');
     await expect(page).toHaveScreenshot({maxDiffPixels : 0});
